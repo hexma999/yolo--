@@ -1,0 +1,10 @@
+path: /content/pascal_datasets/VOC
+train:
+  - images/train2007
+val:
+  - images/val2007
+test:
+  - images/test2007
+
+nc: 4
+names: ["crosswalk", "speedlimit", "stop", "trafficlight"]
